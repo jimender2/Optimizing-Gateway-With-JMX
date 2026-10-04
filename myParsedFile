@@ -1,0 +1,368 @@
+Wrapper-Control-Event-Monitor 1
+org.tanukisoftware.wrapper.WrapperManager$3.run () 1
+org.tanukisoftware.wrapper.WrapperManager$3.run ();java.lang.Thread.sleep[native] () 1
+Wrapper-Connection 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.tanukisoftware.wrapper.WrapperManager.run () 1
+java.lang.Thread.run ();org.tanukisoftware.wrapper.WrapperManager.handleBackend () 1
+java.lang.Thread.run ();org.tanukisoftware.wrapper.WrapperManager.handleBackend ();java.io.DataInputStream.readByte () 1
+WrapperSimpleAppMain 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.tanukisoftware.wrapper.WrapperSimpleApp.run () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke0[native] () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.main () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.ignition.gateway.web.WebResourceManagerImpl.start () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.catapult.IgnitionServer.start () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.catapult.IgnitionServer.start ();org.eclipse.jetty.server.Server.join () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.catapult.IgnitionServer.start ();org.eclipse.jetty.util.thread.QueuedThreadPool.join () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.catapult.IgnitionServer.start ();org.eclipse.jetty.util.thread.QueuedThreadPool.join ();org.eclipse.jetty.util.thread.AutoLock$WithCondition.await () 1
+java.lang.Thread.run ();java.lang.reflect.Method.invoke ();jdk.internal.reflect.NativeMethodAccessorImpl.invoke ();com.inductiveautomation.catapult.Catapult.main ();com.inductiveautomation.ignition.gateway.IgnitionGateway.start ();com.inductiveautomation.catapult.IgnitionServer.start ();org.eclipse.jetty.util.thread.QueuedThreadPool.join ();java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await () 1
+AsyncAppender-Worker-SysoutAsync 1
+ch.qos.logback.core.AsyncAppenderBase$Worker.run () 1
+ch.qos.logback.core.AsyncAppenderBase$Worker.run ();java.util.concurrent.ArrayBlockingQueue.take () 1
+AsyncAppender-Worker-DBAsync 1
+ch.qos.logback.core.AsyncAppenderBase$Worker.run () 1
+ch.qos.logback.core.AsyncAppenderBase$Worker.run ();java.util.concurrent.ArrayBlockingQueue.take () 1
+gateway-log-monitoring-session-reaper 1
+com.inductiveautomation.ignition.gateway.logging.GatewayLoggingManagerImpl$MonitoringSessionReaper.run () 1
+com.inductiveautomation.ignition.gateway.logging.GatewayLoggingManagerImpl$MonitoringSessionReaper.run ();java.lang.Thread.sleep[native] () 1
+webserver-33 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-34 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-35 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-36 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-37 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-38-acceptor-0@50537b5b-ServerConnector@40502b6c{HTTP/1.1,  (http/1.1)}{0.0.0.0:8088} 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run ();org.eclipse.jetty.server.ServerConnector.accept () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run ();sun.nio.ch.ServerSocketChannelImpl.accept () 1
+webserver-39 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-40 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-48 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-49 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-50 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produceTask () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();org.eclipse.jetty.io.ManagedSelector.nioSelect () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.io.ManagedSelector$$Lambda$778.0x00000001004be040.run ();org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce ();org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce ();org.eclipse.jetty.io.ManagedSelector.select ();sun.nio.ch.SelectorImpl.select () 1
+webserver-51-acceptor-0@1076e532-ServerConnector@3f0452d0{SSL,  (ssl, http/1.1)}{0.0.0.0:8060} 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.util.thread.QueuedThreadPool.runJob () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run ();org.eclipse.jetty.server.ServerConnector.accept () 1
+java.lang.Thread.run ();org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob ();org.eclipse.jetty.server.AbstractConnector$Acceptor.run ();sun.nio.ch.ServerSocketChannelImpl.accept () 1
+server-trust-manager-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();com.inductiveautomation.metro.pki.GatewayNetworkTrustListManager$Watcher.run () 1
+java.lang.Thread.run ();sun.nio.fs.AbstractWatchService.take () 1
+client-trust-manager-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();com.inductiveautomation.metro.pki.GatewayNetworkTrustListManager$Watcher.run () 1
+java.lang.Thread.run ();sun.nio.fs.AbstractWatchService.take () 1
+com.jniwrapper.NativeResourceCollector 1
+com.jniwrapper.a.run () 1
+com.jniwrapper.a.run ();java.lang.ref.ReferenceQueue.remove () 1
+Main message loop 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run () 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run ();com.jniwrapper.Function.invoke () 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run ();com.jniwrapper.Function.invoke () 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run ();com.jniwrapper.Function.invoke ();com.jniwrapper.FunctionCall.call () 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run ();com.jniwrapper.Function.invoke ();com.jniwrapper.FunctionCall.a () 1
+com.jniwrapper.win32.MessageLoopThread$LoopThread.run ();com.jniwrapper.Function.invoke ();com.jniwrapper.FunctionCall.a ();com.jniwrapper.Function.invokeCFunc[native] () 1
+certificate-store-watcher 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.milo.opcua.stack.core.security.DefaultTrustListManager$Watcher.run () 1
+java.lang.Thread.run ();sun.nio.fs.AbstractWatchService.take () 1
+certificate-store-watcher 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.eclipse.milo.opcua.stack.core.security.DefaultTrustListManager$Watcher.run () 1
+java.lang.Thread.run ();sun.nio.fs.AbstractWatchService.take () 1
+Connection evictor 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();org.apache.http.impl.client.IdleConnectionEvictor$1.run () 1
+java.lang.Thread.run ();java.lang.Thread.sleep[native] () 1
+cron4j::scheduler[taskmanager]::timer[6eecc45832672f5118605dc5000001a0d48c416640e040de] 1
+it.sauronsoftware.cron4j.TimerThread.run () 1
+it.sauronsoftware.cron4j.TimerThread.run ();it.sauronsoftware.cron4j.TimerThread.safeSleep () 1
+it.sauronsoftware.cron4j.TimerThread.run ();java.lang.Thread.sleep[native] () 1
+milo-netty-event-loop-0 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.internal.ThreadExecutorMap$2.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();io.netty.channel.nio.SelectedSelectionKeySetSelector.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();sun.nio.ch.SelectorImpl.select () 1
+milo-netty-wheel-timer 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.HashedWheelTimer$Worker.run () 1
+java.lang.Thread.run ();io.netty.util.HashedWheelTimer$Worker.waitForNextTick () 6
+java.lang.Thread.run ();io.netty.util.HashedWheelTimer$Worker.waitForNextTick ();java.lang.Thread.sleep[native] () 7
+java.lang.Thread.run ();io.netty.util.HashedWheelTimer$Worker.transferTimeoutsToBuckets () 2
+milo-netty-event-loop-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.internal.ThreadExecutorMap$2.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();io.netty.channel.nio.SelectedSelectionKeySetSelector.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();sun.nio.ch.SelectorImpl.select () 1
+milo-netty-event-loop-2 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.internal.ThreadExecutorMap$2.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();io.netty.channel.nio.SelectedSelectionKeySetSelector.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();sun.nio.ch.SelectorImpl.select () 1
+milo-netty-event-loop-3 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.internal.ThreadExecutorMap$2.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();io.netty.channel.nio.SelectedSelectionKeySetSelector.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();sun.nio.ch.SelectorImpl.select () 1
+milo-netty-event-loop-4 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();io.netty.util.internal.ThreadExecutorMap$2.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.run () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();io.netty.channel.nio.SelectedSelectionKeySetSelector.select () 1
+java.lang.Thread.run ();io.netty.util.concurrent.SingleThreadEventExecutor$4.run ();io.netty.channel.nio.NioEventLoop.select ();sun.nio.ch.SelectorImpl.select () 1
+gateway-scripts-pylib-watcher 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();com.inductiveautomation.ignition.gateway.ThirdPartyScriptModulesChangeListener.run () 1
+java.lang.Thread.run ();sun.nio.fs.AbstractWatchService.take () 1
+gateway-performance-clockdrift-detector 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();com.inductiveautomation.ignition.gateway.ClockDriftDetector.run () 1
+java.lang.Thread.run ();java.lang.Thread.sleep[native] () 1
+perspective-worker-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();com.inductiveautomation.perspective.gateway.threading.BlockingWork$BlockingWorkRunnable.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+gateway-shared-exec-engine-5 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy$$Lambda$825.0x0000000100515ae0.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy.check () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy.check ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy.readLicenseFromHasp () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy.check ();Aladdin.Hasp.login () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.licensing.HaspActivationStrategy.check ();Aladdin.Hasp.login ();Aladdin.Hasp.Login[native] () 1
+gateway-shared-exec-engine-2 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager$$Lambda$3063.0x0000000100f82cc0.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.getCpuUsage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.updateThreads () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.updateThreads ();java.lang.management.ManagementFactory.getOperatingSystemMXBean () 1
+gateway-shared-exec-engine-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager$$Lambda$3063.0x0000000100f82cc0.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();java.io.File.getTotalSpace () 1
+gateway-shared-exec-engine-3 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager$$Lambda$3063.0x0000000100f82cc0.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.getCpuUsage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.sun.management.internal.OperatingSystemImpl.getProcessCpuLoad () 1
+gateway-performance-metric-history-1 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.metrics.MetricHistoryManagerImpl$MetricUpdate.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor$$Lambda$3064.0x0000000100f83148.getValue () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor$$Lambda$3064.0x0000000100f83148.getValue ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.lambda$new$0 () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor$$Lambda$3064.0x0000000100f83148.getValue ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.getCpuUsage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor$$Lambda$3064.0x0000000100f83148.getValue ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.getCpuUsage ();com.sun.management.internal.OperatingSystemImpl.getProcessCpuLoad () 1
+gateway-shared-exec-engine-9 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.multicast.MulticastScheduler.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.multicast.MulticastScheduler.getMessage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.multicast.MulticastScheduler.getMessage ();com.inductiveautomation.ignition.gateway.redundancy.RedundancyManagerImpl.getLocalAddress () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.multicast.MulticastScheduler.getMessage ();java.net.NetworkInterface.networkInterfaces () 1
+gateway-shared-exec-engine-6 1
+java.lang.Thread.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor$Worker.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();java.util.concurrent.Executors$RunnableAdapter.call () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager$$Lambda$3063.0x0000000100f82cc0.run () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.getCpuUsage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.updateDiskUsage () 1
+java.lang.Thread.run ();java.util.concurrent.ThreadPoolExecutor.runWorker ();java.util.concurrent.FutureTask.runAndReset ();com.inductiveautomation.ignition.common.execution.impl.BasicExecutionEngine$TrackedTask.run ();com.inductiveautomation.ignition.gateway.IgnitionGateway$PerformanceStatusTagManager.refresh ();com.inductiveautomation.ignition.gateway.util.PerformanceMonitor.updateDiskUsage ();java.io.File.getUsableSpace () 1
